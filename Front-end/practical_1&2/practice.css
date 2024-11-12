@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+ul li{
+    display: flex;
+    justify-content: space-evenly;
+    height: 20px;
+    width: 50px;
+    border: 2px solid black;
+}

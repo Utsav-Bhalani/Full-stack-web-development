@@ -1,0 +1,33 @@
+/* App.css */
+.App {
+  display: flex;
+  background-color: #ecf0f1;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #ecf0f1;
+  margin-left: 220px;
+  transition: margin-left 0.3s;
+  min-height: 100vh;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .sidebar {
+      width: 160px;
+  }
+
+  .sidebar.open {
+      width: 160px;
+  }
+
+  .menu-items li span {
+      font-size: 16px;
+  }
+
+  .content, .main-content, .about, .contact {
+      margin-left: 180px;
+  }
+}

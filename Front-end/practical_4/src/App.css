@@ -1,0 +1,84 @@
+.mainBlock {
+  position: relative;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f8ff;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.language-select {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.countDis {
+  margin-bottom: 20px;
+}
+
+.count {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #4682b4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #5a9bd3;
+}
+
+.welcome {
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input {
+  margin: 0 10px;
+}
+
+.input p {
+  margin-bottom: 5px;
+}
+
+.input input {
+  padding: 8px;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+}
+
+.disName {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  font-size: 16px;
+}
